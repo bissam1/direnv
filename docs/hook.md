@@ -93,6 +93,7 @@ Add the following hook to your `$env.config.hooks.env_change.PWD` list in `confi
 ### PowerShell
 
 Add the following line to your `$PROFILE`:
+Invoke-Expression "$(direnv hook pwsh)
 
 ```powershell
 Invoke-Expression "$(direnv hook pwsh)"
